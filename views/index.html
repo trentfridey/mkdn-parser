@@ -6,17 +6,17 @@
   </head>
   <body>
     <div class="header">
-      <h1>
+      <h1 class="page">
         Markdown Parser
       </h1>
     </div>
     <div class="container">
       <div class="pane left">
-        <h2>
+        <h2 class="page">
         Editor
         </h2>
         <div>
-          <h3>
+          <h3 class="page">
             Type your Markdown syntax here
           </h3>
           <center>
@@ -25,20 +25,28 @@
         </div>
       </div>
       <div class="pane right">
-        <h2>
+        <h2 class="page">
           Viewer
         </h2>
         <div>
-          <h3>
+          <h3 class="page">
             View the Markdown result here
           </h3>
         </div>
         <div class="output">
+          <!--- Output markdown goes here --->
         </div>
+      </div>
+      <div style="clear: both">
+      </div>
+      <div class="push">
       </div>
     </div>
   </body>
   <footer>
+    <center>
+    Made by Trent Fridey with <a href="https://www.npmjs.com/package/marked">Marked</a>.
+    </center>
     <script src="bundle.js"></script>
   </footer>
 </html>
