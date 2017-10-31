@@ -1,1 +1,1 @@
-watchify public/client.js -o public/bundle.js && node server.js
+browserify public/client.js -o public/bundle.js && node server.js
