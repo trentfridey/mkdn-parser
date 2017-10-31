@@ -1,0 +1,27 @@
+{
+  "name": "mkdn-parser-2",
+  "version": "0.1.0",
+  "description": "Parse the markdown",
+  "main": "server.js",
+  "repository":"https://glitch.com/edit/#!/mkdn-parser-2",
+  "scripts": {
+    "start": "sh start.sh"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "node-sass-middleware": "0.9.8",
+    "marked": "^0.3.6",
+    "jquery": "^3.2.1",
+    "browserify": "^14.5.0",
+    "watchify": "^3.9.0"
+  },
+  "engines": {
+    "node": "6.9.5"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sass"
+  ],
+  "license": "MIT"
+}
